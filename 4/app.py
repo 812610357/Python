@@ -1,9 +1,11 @@
 import os
+# 九九乘法表
 for i in range(1, 10):
     for j in range(1, i+1):
         print("%dx%d=%-2d " % (i, j, i * j), end=' ')
     print("")
 os.system("pause")
+# 字符数统计
 letter, number, other = 0, 0, 0
 for char in input("请输入一串字符:"):
     if char >= '0' and char <= '9':
