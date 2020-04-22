@@ -1,2 +1,3 @@
-a_str = 'hello world!'  # 定义一个字符串
-print(len(a_str))  # 返回字符串的长度
+a_str = 'Hello World!'  # 定义一个字符串
+print(str.lower(a_str))  # 全小写
+print(str.upper(a_str))  # 全大写
